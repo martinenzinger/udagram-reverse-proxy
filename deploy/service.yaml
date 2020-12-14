@@ -8,8 +8,8 @@ metadata:
   selfLink: /api/v1/namespaces/default/services/udagram-reverseproxy-svc
 spec:
   ports:
-  - name: "8080"
-    port: 8080
-    targetPort: 8080
+  - name: "80"
+    port: 80
+    targetPort: 80
   selector:
     service: udagram-reverseproxy
